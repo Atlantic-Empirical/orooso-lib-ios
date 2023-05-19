@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B129786177E423900AA1CB7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B129785177E423900AA1CB7 /* AddressBook.framework */; };
+		5B12978B177E449600AA1CB7 /* BoardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B129789177E449600AA1CB7 /* BoardsViewController.m */; };
+		5B12978C177E449600AA1CB7 /* BoardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B12978A177E449600AA1CB7 /* BoardsViewController.xib */; };
+		5B6C57331703730100FB37A0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6C57321703730100FB37A0 /* CoreTelephony.framework */; };
+		5B6D16C5165FCFB7008A3CC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6D16C4165FCFB7008A3CC9 /* UIKit.framework */; };
+		5B6D16C7165FCFB7008A3CC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6D16C6165FCFB7008A3CC9 /* Foundation.framework */; };
+		5B6D16C9165FCFB7008A3CC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6D16C8165FCFB7008A3CC9 /* CoreGraphics.framework */; };
+		5B6D16CF165FCFB7008A3CC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D16CD165FCFB7008A3CC9 /* InfoPlist.strings */; };
+		5B6D16D1165FCFB7008A3CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D16D0165FCFB7008A3CC9 /* main.m */; };
+		5B6D16D5165FCFB7008A3CC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D16D4165FCFB7008A3CC9 /* AppDelegate.m */; };
+		5B6D16D7165FCFB7008A3CC9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D16D6165FCFB7008A3CC9 /* Default.png */; };
+		5B6D16D9165FCFB7008A3CC9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D16D8165FCFB7008A3CC9 /* Default@2x.png */; };
+		5B6D16DB165FCFB7008A3CC9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D16DA165FCFB7008A3CC9 /* Default-568h@2x.png */; };
+		5B6D16DE165FCFB7008A3CC9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D16DD165FCFB7008A3CC9 /* MainViewController.m */; };
+		5B6D16FE165FD342008A3CC9 /* OroosoLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D16F8165FD06A008A3CC9 /* OroosoLib.bundle */; };
+		5B6D1714165FD6A8008A3CC9 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D1713165FD6A8008A3CC9 /* MainViewController.xib */; };
+		5B6D171A165FD6DE008A3CC9 /* BingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D1718165FD6DE008A3CC9 /* BingViewController.xib */; };
+		5B6D1728165FD6EA008A3CC9 /* IMDBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D171D165FD6EA008A3CC9 /* IMDBViewController.xib */; };
+		5B6D172A165FD6EA008A3CC9 /* RoviViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D1720165FD6EA008A3CC9 /* RoviViewController.xib */; };
+		5B6D172B165FD6EA008A3CC9 /* YouTubePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D1722165FD6EA008A3CC9 /* YouTubePlayerViewController.m */; };
+		5B6D172C165FD6EA008A3CC9 /* YouTubePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D1723165FD6EA008A3CC9 /* YouTubePlayerViewController.xib */; };
+		5B6D172D165FD6EA008A3CC9 /* YouTubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D1725165FD6EA008A3CC9 /* YouTubeViewController.m */; };
+		5B6D172E165FD6EA008A3CC9 /* YouTubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D1726165FD6EA008A3CC9 /* YouTubeViewController.xib */; };
+		5B6D1730165FD903008A3CC9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6D172F165FD903008A3CC9 /* CFNetwork.framework */; };
+		5B6D1732165FD90E008A3CC9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6D1731165FD90E008A3CC9 /* SystemConfiguration.framework */; };
+		5B6D1734165FD915008A3CC9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6D1733165FD915008A3CC9 /* Security.framework */; };
+		5BCEE14A166FD65E00D44C9F /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCEE149166FD65E00D44C9F /* libz.1.2.5.dylib */; };
+		5BCEE14C166FD6BE00D44C9F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCEE14B166FD6BE00D44C9F /* AVFoundation.framework */; };
+		5BCEE14E166FD75600D44C9F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCEE14D166FD75600D44C9F /* AudioToolbox.framework */; };
+		5BD266A916DC3545009D6747 /* sample_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BD266A816DC3545009D6747 /* sample_small.jpg */; };
+		5BEC7030178DD0AD00D73787 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEC702F178DD0AD00D73787 /* Accounts.framework */; };
+		5BEC7033178DD0B500D73787 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEC7032178DD0B500D73787 /* Twitter.framework */; };
+		E605197F16902493000D706A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E605197E16902493000D706A /* CoreData.framework */; };
+		E6D3486A1690137200977771 /* libOroosoLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6D16F6165FD06A008A3CC9 /* libOroosoLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B6D16F5165FD06A008A3CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B6D16EC165FD069008A3CC9 /* OroosoLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BE25AFC165D553F00586A7A;
+			remoteInfo = OroosoLib;
+		};
+		5B6D16F7165FD06A008A3CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B6D16EC165FD069008A3CC9 /* OroosoLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BE25B23165D5E1C00586A7A;
+			remoteInfo = OroosoLibResources;
+		};
+		5B6D16FA165FD0C6008A3CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B6D16EC165FD069008A3CC9 /* OroosoLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE25AFB165D553F00586A7A;
+			remoteInfo = OroosoLib;
+		};
+		5B6D16FC165FD31A008A3CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B6D16EC165FD069008A3CC9 /* OroosoLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE25B22165D5E1C00586A7A;
+			remoteInfo = OroosoLibResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B129785177E423900AA1CB7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		5B129788177E449600AA1CB7 /* BoardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardsViewController.h; sourceTree = "<group>"; };
+		5B129789177E449600AA1CB7 /* BoardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardsViewController.m; sourceTree = "<group>"; };
+		5B12978A177E449600AA1CB7 /* BoardsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoardsViewController.xib; sourceTree = "<group>"; };
+		5B6C57321703730100FB37A0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5B6D16C0165FCFB7008A3CC9 /* OroosoLibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OroosoLibTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6D16C4165FCFB7008A3CC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B6D16C6165FCFB7008A3CC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B6D16C8165FCFB7008A3CC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B6D16CC165FCFB7008A3CC9 /* OroosoLibTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OroosoLibTest-Info.plist"; sourceTree = "<group>"; };
+		5B6D16CE165FCFB7008A3CC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B6D16D0165FCFB7008A3CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B6D16D2165FCFB7008A3CC9 /* OroosoLibTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OroosoLibTest-Prefix.pch"; sourceTree = "<group>"; };
+		5B6D16D3165FCFB7008A3CC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B6D16D4165FCFB7008A3CC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B6D16D6165FCFB7008A3CC9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5B6D16D8165FCFB7008A3CC9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5B6D16DA165FCFB7008A3CC9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B6D16DC165FCFB7008A3CC9 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5B6D16DD165FCFB7008A3CC9 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5B6D16EC165FD069008A3CC9 /* OroosoLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = OroosoLib.xcodeproj; sourceTree = "<group>"; };
+		5B6D1713165FD6A8008A3CC9 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		5B6D1716165FD6DE008A3CC9 /* BingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BingViewController.h; sourceTree = "<group>"; };
+		5B6D1717165FD6DE008A3CC9 /* BingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BingViewController.m; sourceTree = "<group>"; };
+		5B6D1718165FD6DE008A3CC9 /* BingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BingViewController.xib; sourceTree = "<group>"; };
+		5B6D171B165FD6EA008A3CC9 /* IMDBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDBViewController.h; sourceTree = "<group>"; };
+		5B6D171C165FD6EA008A3CC9 /* IMDBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMDBViewController.m; sourceTree = "<group>"; };
+		5B6D171D165FD6EA008A3CC9 /* IMDBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMDBViewController.xib; sourceTree = "<group>"; };
+		5B6D171E165FD6EA008A3CC9 /* RoviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoviViewController.h; sourceTree = "<group>"; };
+		5B6D171F165FD6EA008A3CC9 /* RoviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoviViewController.m; sourceTree = "<group>"; };
+		5B6D1720165FD6EA008A3CC9 /* RoviViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoviViewController.xib; sourceTree = "<group>"; };
+		5B6D1721165FD6EA008A3CC9 /* YouTubePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubePlayerViewController.h; sourceTree = "<group>"; };
+		5B6D1722165FD6EA008A3CC9 /* YouTubePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubePlayerViewController.m; sourceTree = "<group>"; };
+		5B6D1723165FD6EA008A3CC9 /* YouTubePlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YouTubePlayerViewController.xib; sourceTree = "<group>"; };
+		5B6D1724165FD6EA008A3CC9 /* YouTubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeViewController.h; sourceTree = "<group>"; };
+		5B6D1725165FD6EA008A3CC9 /* YouTubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeViewController.m; sourceTree = "<group>"; };
+		5B6D1726165FD6EA008A3CC9 /* YouTubeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YouTubeViewController.xib; sourceTree = "<group>"; };
+		5B6D172F165FD903008A3CC9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5B6D1731165FD90E008A3CC9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5B6D1733165FD915008A3CC9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5BCEE149166FD65E00D44C9F /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		5BCEE14B166FD6BE00D44C9F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5BCEE14D166FD75600D44C9F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5BD266A816DC3545009D6747 /* sample_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_small.jpg; sourceTree = "<group>"; };
+		5BEC702F178DD0AD00D73787 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		5BEC7032178DD0B500D73787 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		E605197E16902493000D706A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B6D16BD165FCFB7008A3CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEC7033178DD0B500D73787 /* Twitter.framework in Frameworks */,
+				5BEC7030178DD0AD00D73787 /* Accounts.framework in Frameworks */,
+				5B129786177E423900AA1CB7 /* AddressBook.framework in Frameworks */,
+				5B6C57331703730100FB37A0 /* CoreTelephony.framework in Frameworks */,
+				E605197F16902493000D706A /* CoreData.framework in Frameworks */,
+				E6D3486A1690137200977771 /* libOroosoLib.a in Frameworks */,
+				5BCEE14E166FD75600D44C9F /* AudioToolbox.framework in Frameworks */,
+				5BCEE14C166FD6BE00D44C9F /* AVFoundation.framework in Frameworks */,
+				5BCEE14A166FD65E00D44C9F /* libz.1.2.5.dylib in Frameworks */,
+				5B6D16C5165FCFB7008A3CC9 /* UIKit.framework in Frameworks */,
+				5B6D16C7165FCFB7008A3CC9 /* Foundation.framework in Frameworks */,
+				5B6D16C9165FCFB7008A3CC9 /* CoreGraphics.framework in Frameworks */,
+				5B6D1730165FD903008A3CC9 /* CFNetwork.framework in Frameworks */,
+				5B6D1732165FD90E008A3CC9 /* SystemConfiguration.framework in Frameworks */,
+				5B6D1734165FD915008A3CC9 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B6D16B5165FCFB7008A3CC9 = {
+			isa = PBXGroup;
+			children = (
+				5BEC7032178DD0B500D73787 /* Twitter.framework */,
+				5BEC702F178DD0AD00D73787 /* Accounts.framework */,
+				5B129785177E423900AA1CB7 /* AddressBook.framework */,
+				5B6D16CA165FCFB7008A3CC9 /* OroosoLibTest */,
+				5B6D16C3165FCFB7008A3CC9 /* Frameworks */,
+				5B6D16C1165FCFB7008A3CC9 /* Products */,
+				5B6D16EC165FD069008A3CC9 /* OroosoLib.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		5B6D16C1165FCFB7008A3CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B6D16C0165FCFB7008A3CC9 /* OroosoLibTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B6D16C3165FCFB7008A3CC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B6C57321703730100FB37A0 /* CoreTelephony.framework */,
+				E605197E16902493000D706A /* CoreData.framework */,
+				5B6D16C4165FCFB7008A3CC9 /* UIKit.framework */,
+				5B6D16C6165FCFB7008A3CC9 /* Foundation.framework */,
+				5B6D16C8165FCFB7008A3CC9 /* CoreGraphics.framework */,
+				5B6D172F165FD903008A3CC9 /* CFNetwork.framework */,
+				5B6D1731165FD90E008A3CC9 /* SystemConfiguration.framework */,
+				5B6D1733165FD915008A3CC9 /* Security.framework */,
+				5BCEE14D166FD75600D44C9F /* AudioToolbox.framework */,
+				5BCEE14B166FD6BE00D44C9F /* AVFoundation.framework */,
+				5BCEE149166FD65E00D44C9F /* libz.1.2.5.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B6D16CA165FCFB7008A3CC9 /* OroosoLibTest */ = {
+			isa = PBXGroup;
+			children = (
+				5B6D1715165FD6BA008A3CC9 /* View Controllers */,
+				5B6D16CB165FCFB7008A3CC9 /* Supporting Files */,
+				5B6D16D3165FCFB7008A3CC9 /* AppDelegate.h */,
+				5B6D16D4165FCFB7008A3CC9 /* AppDelegate.m */,
+			);
+			path = OroosoLibTest;
+			sourceTree = "<group>";
+		};
+		5B6D16CB165FCFB7008A3CC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BCE4AD2165FE45A004DA6EF /* Images */,
+				5B6D16CC165FCFB7008A3CC9 /* OroosoLibTest-Info.plist */,
+				5B6D16CD165FCFB7008A3CC9 /* InfoPlist.strings */,
+				5B6D16D0165FCFB7008A3CC9 /* main.m */,
+				5B6D16D2165FCFB7008A3CC9 /* OroosoLibTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B6D16ED165FD069008A3CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B6D16F6165FD06A008A3CC9 /* libOroosoLib.a */,
+				5B6D16F8165FD06A008A3CC9 /* OroosoLib.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B6D1715165FD6BA008A3CC9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B6D16DC165FCFB7008A3CC9 /* MainViewController.h */,
+				5B6D16DD165FCFB7008A3CC9 /* MainViewController.m */,
+				5B6D1713165FD6A8008A3CC9 /* MainViewController.xib */,
+				5B6D1716165FD6DE008A3CC9 /* BingViewController.h */,
+				5B6D1717165FD6DE008A3CC9 /* BingViewController.m */,
+				5B6D1718165FD6DE008A3CC9 /* BingViewController.xib */,
+				5B6D171B165FD6EA008A3CC9 /* IMDBViewController.h */,
+				5B6D171C165FD6EA008A3CC9 /* IMDBViewController.m */,
+				5B6D171D165FD6EA008A3CC9 /* IMDBViewController.xib */,
+				5B6D171E165FD6EA008A3CC9 /* RoviViewController.h */,
+				5B6D171F165FD6EA008A3CC9 /* RoviViewController.m */,
+				5B6D1720165FD6EA008A3CC9 /* RoviViewController.xib */,
+				5B6D1724165FD6EA008A3CC9 /* YouTubeViewController.h */,
+				5B6D1725165FD6EA008A3CC9 /* YouTubeViewController.m */,
+				5B6D1726165FD6EA008A3CC9 /* YouTubeViewController.xib */,
+				5B6D1721165FD6EA008A3CC9 /* YouTubePlayerViewController.h */,
+				5B6D1722165FD6EA008A3CC9 /* YouTubePlayerViewController.m */,
+				5B6D1723165FD6EA008A3CC9 /* YouTubePlayerViewController.xib */,
+				5B129788177E449600AA1CB7 /* BoardsViewController.h */,
+				5B129789177E449600AA1CB7 /* BoardsViewController.m */,
+				5B12978A177E449600AA1CB7 /* BoardsViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5BCE4AD2165FE45A004DA6EF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5BD266A816DC3545009D6747 /* sample_small.jpg */,
+				5B6D16D6165FCFB7008A3CC9 /* Default.png */,
+				5B6D16D8165FCFB7008A3CC9 /* Default@2x.png */,
+				5B6D16DA165FCFB7008A3CC9 /* Default-568h@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B6D16BF165FCFB7008A3CC9 /* OroosoLibTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B6D16E4165FCFB7008A3CC9 /* Build configuration list for PBXNativeTarget "OroosoLibTest" */;
+			buildPhases = (
+				5B6D16BC165FCFB7008A3CC9 /* Sources */,
+				5B6D16BD165FCFB7008A3CC9 /* Frameworks */,
+				5B6D16BE165FCFB7008A3CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B6D16FB165FD0C6008A3CC9 /* PBXTargetDependency */,
+				5B6D16FD165FD31A008A3CC9 /* PBXTargetDependency */,
+			);
+			name = OroosoLibTest;
+			productName = OroosoLibTest;
+			productReference = 5B6D16C0165FCFB7008A3CC9 /* OroosoLibTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B6D16B7165FCFB7008A3CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Orooso, Inc.";
+			};
+			buildConfigurationList = 5B6D16BA165FCFB7008A3CC9 /* Build configuration list for PBXProject "OroosoLibTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B6D16B5165FCFB7008A3CC9;
+			productRefGroup = 5B6D16C1165FCFB7008A3CC9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5B6D16ED165FD069008A3CC9 /* Products */;
+					ProjectRef = 5B6D16EC165FD069008A3CC9 /* OroosoLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5B6D16BF165FCFB7008A3CC9 /* OroosoLibTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5B6D16F6165FD06A008A3CC9 /* libOroosoLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOroosoLib.a;
+			remoteRef = 5B6D16F5165FD06A008A3CC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5B6D16F8165FD06A008A3CC9 /* OroosoLib.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OroosoLib.bundle;
+			remoteRef = 5B6D16F7165FD06A008A3CC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B6D16BE165FCFB7008A3CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6D16CF165FCFB7008A3CC9 /* InfoPlist.strings in Resources */,
+				5B6D16D7165FCFB7008A3CC9 /* Default.png in Resources */,
+				5B6D16D9165FCFB7008A3CC9 /* Default@2x.png in Resources */,
+				5B6D16DB165FCFB7008A3CC9 /* Default-568h@2x.png in Resources */,
+				5B6D16FE165FD342008A3CC9 /* OroosoLib.bundle in Resources */,
+				5B6D1714165FD6A8008A3CC9 /* MainViewController.xib in Resources */,
+				5B6D171A165FD6DE008A3CC9 /* BingViewController.xib in Resources */,
+				5B6D1728165FD6EA008A3CC9 /* IMDBViewController.xib in Resources */,
+				5B6D172A165FD6EA008A3CC9 /* RoviViewController.xib in Resources */,
+				5B6D172C165FD6EA008A3CC9 /* YouTubePlayerViewController.xib in Resources */,
+				5B6D172E165FD6EA008A3CC9 /* YouTubeViewController.xib in Resources */,
+				5BD266A916DC3545009D6747 /* sample_small.jpg in Resources */,
+				5B12978C177E449600AA1CB7 /* BoardsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B6D16BC165FCFB7008A3CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6D16D1165FCFB7008A3CC9 /* main.m in Sources */,
+				5B6D16D5165FCFB7008A3CC9 /* AppDelegate.m in Sources */,
+				5B6D16DE165FCFB7008A3CC9 /* MainViewController.m in Sources */,
+				5B6D172B165FD6EA008A3CC9 /* YouTubePlayerViewController.m in Sources */,
+				5B6D172D165FD6EA008A3CC9 /* YouTubeViewController.m in Sources */,
+				5B12978B177E449600AA1CB7 /* BoardsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B6D16FB165FD0C6008A3CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OroosoLib;
+			targetProxy = 5B6D16FA165FD0C6008A3CC9 /* PBXContainerItemProxy */;
+		};
+		5B6D16FD165FD31A008A3CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OroosoLibResources;
+			targetProxy = 5B6D16FC165FD31A008A3CC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B6D16CD165FCFB7008A3CC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B6D16CE165FCFB7008A3CC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B6D16E2165FCFB7008A3CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Vendor/**",
+					"$(SRCROOT)/OroosoLib/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5B6D16E3165FCFB7008A3CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Vendor/**",
+					"$(SRCROOT)/OroosoLib/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B6D16E5165FCFB7008A3CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OroosoLibTest/OroosoLibTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
+				INFOPLIST_FILE = "OroosoLibTest/OroosoLibTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B6D16E6165FCFB7008A3CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OroosoLibTest/OroosoLibTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
+				INFOPLIST_FILE = "OroosoLibTest/OroosoLibTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B6D16BA165FCFB7008A3CC9 /* Build configuration list for PBXProject "OroosoLibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6D16E2165FCFB7008A3CC9 /* Debug */,
+				5B6D16E3165FCFB7008A3CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B6D16E4165FCFB7008A3CC9 /* Build configuration list for PBXNativeTarget "OroosoLibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6D16E5165FCFB7008A3CC9 /* Debug */,
+				5B6D16E6165FCFB7008A3CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B6D16B7165FCFB7008A3CC9 /* Project object */;
+}
